@@ -4,7 +4,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     gaiabuilder: {
       options: {
-        depends: ['gaia-essential', 'gaia-calendar'],
+        depends: ['gaia-calendar'],
         targetDir: '/tmp/test-gaiabuilder'
       }
     }
